@@ -1,7 +1,8 @@
 <?php
-// Ini versi constructor
-class LuasLingkaran{
+namespace App\Math;
 
+class LuasLingkaran{
+    
     public const phi = 3.14;
     public int $jari;
 
@@ -25,6 +26,3 @@ class LuasLingkaran{
     }
 }
 
-$lingkaran = new LuasLingkaran(7);
-$lingkaran->tampil('roda'); //panggil method
-LuasLingkaran::testing();
